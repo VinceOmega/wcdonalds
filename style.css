@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,400&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 1020px;
+}
+
+body{
+    min-height: 1020px;
+    height: 100%;
+    background: red;
+    background-color: red;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+div.container{
+    height: inherit;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    
+}
+
+div.container div.wcdga-logo{
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    background-image: url('/img/GoldenArches.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    clear: both;
+    height: 280px;
+    width: 270px;
+    min-height: 273px;
+    min-width: 239px;
+    background-position: center;
+
+}
+
+div.container div.wcdga-logo > span.wcdga-logo-txt{
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    position: relative;
+    display: block;
+    top: 50px;
+    left: -80px;
+}
+
+div.container div.wcdga-logo-container{
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 2em;
+}
+
+div.container > div.row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.container .txt-yellow{
+    color: yellow;
+    transition: ease-in-out .4s all;
+    font-stretch: 50%;
+
+}
+
+
+div.container .txt-yellow:hover{
+    transition: ease-in-out .4s all;
+    font-stretch: 200%;
+}
+
+div.container label.email-label{
+    visibility: hidden;
+}
+
+div.container input#mce-EMAIL{
+    width: 300px;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+div.container input#mce-EMAIL:focus{
+    border: 3px solid rgba(0, 119, 255, 0.781);
+    transition: ease-out .2s all;
+    box-shadow: 1px 10px 28px -11px rgba(0,119,255,0.75);
+    -webkit-box-shadow: 1px 10px 28px -11px rgba(0,119,255,0.75);
+    -moz-box-shadow: 1px 10px 28px -11px rgba(0,119,255,0.75);
+}
+
+div.container input#mc-embedded-subscribe{
+    width: 310px;
+    min-width: 200px;
+    border-radius: 5px;
+    font-weight: 600;
+    background: white;
+    color: red;
+}
+
